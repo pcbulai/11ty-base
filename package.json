@@ -1,0 +1,20 @@
+{
+  "name": "@pcbulai/11ty-base",
+  "version": "1.0.0",
+  "description": "Shared Eleventy setup for pcbulai's sites: Sass, YAML data and GitHub Pages deploys",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "js-yaml": "^5.5.0",
+    "sass": "^1.108.2"
+  }
+}
